@@ -1,0 +1,38 @@
+C:\Users\lukaj\Luky_Fri\Luky_Fri\bin\Release\Luky_Fri.exe.config
+C:\Users\lukaj\Luky_Fri\Luky_Fri\bin\Release\Luky_Fri.exe
+C:\Users\lukaj\Luky_Fri\Luky_Fri\bin\Release\Luky_Fri.pdb
+C:\Users\lukaj\Luky_Fri\Luky_Fri\bin\Release\Luky_Fri.xml
+C:\Users\lukaj\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.close_sure.resources
+C:\Users\lukaj\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.Menu.resources
+C:\Users\lukaj\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.jump.resources
+C:\Users\lukaj\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.Resources.resources
+C:\Users\lukaj\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.play1.resources
+C:\Users\lukaj\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.play2.resources
+C:\Users\lukaj\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.play3.resources
+C:\Users\lukaj\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.play4.resources
+C:\Users\lukaj\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.tutorial.resources
+C:\Users\lukaj\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.vbproj.GenerateResource.cache
+C:\Users\lukaj\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.vbproj.CoreCompileInputs.cache
+C:\Users\lukaj\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.exe
+C:\Users\lukaj\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.xml
+C:\Users\lukaj\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.pdb
+C:\Users\lukaj\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.vbprojAssemblyReference.cache
+C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\bin\Release\Luky_Fri.exe.config
+C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\bin\Release\Luky_Fri.exe
+C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\bin\Release\Luky_Fri.pdb
+C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\bin\Release\Luky_Fri.xml
+C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.vbprojAssemblyReference.cache
+C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.close_sure.resources
+C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.Menu.resources
+C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.jump.resources
+C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.Resources.resources
+C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.play1.resources
+C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.play2.resources
+C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.play3.resources
+C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.play4.resources
+C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.tutorial.resources
+C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.vbproj.GenerateResource.cache
+C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.vbproj.CoreCompileInputs.cache
+C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.exe
+C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.xml
+C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.pdb

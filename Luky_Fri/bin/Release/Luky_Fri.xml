@@ -1,0 +1,56 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Luky_Fri
+</name>
+</assembly>
+<members>
+<member name="T:Luky_Fri.My.Resources.Resources">
+<summary>
+  Třída prostředků se silnými typy pro vyhledávání lokalizovaných řetězců atp.
+</summary>
+</member>
+<member name="P:Luky_Fri.My.Resources.Resources.ResourceManager">
+<summary>
+  Vrací instanci ResourceManager uloženou v mezipaměti použitou touto třídou.
+</summary>
+</member>
+<member name="P:Luky_Fri.My.Resources.Resources.Culture">
+<summary>
+  Potlačí vlastnost CurrentUICulture aktuálního vlákna pro všechna
+  vyhledání prostředků pomocí třídy prostředků se silnými typy.
+</summary>
+</member>
+<member name="P:Luky_Fri.My.Resources.Resources.character">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Luky_Fri.My.Resources.Resources.character_jump">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Luky_Fri.My.Resources.Resources.coming_soon">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Luky_Fri.My.Resources.Resources.title">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Luky_Fri.My.Resources.Resources.tree">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Luky_Fri.My.Resources.Resources.welcome_sign">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>
