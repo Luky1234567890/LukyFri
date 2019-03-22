@@ -12,7 +12,8 @@
     End Sub
 
     Private Sub Menu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        My.Computer.Audio.Play("C:\Program Files (x86)\Nelinka\Luky Fri\lukyfri_playmusic.wav",
+        AudioPlayMode.BackgroundLoop)
     End Sub
 
     Private Sub Menu_KeyPress(sender As Object, e As KeyPressEventArgs) Handles Me.KeyPress
@@ -21,5 +22,9 @@
 
     Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
 
+    End Sub
+
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+        playonline.Show()
     End Sub
 End Class

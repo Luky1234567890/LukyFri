@@ -37,6 +37,7 @@ Partial Class Menu
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -157,7 +158,7 @@ Partial Class Menu
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.24!)
-        Me.Label5.Location = New System.Drawing.Point(310, 263)
+        Me.Label5.Location = New System.Drawing.Point(277, 304)
         Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(186, 29)
@@ -183,11 +184,22 @@ Partial Class Menu
         Me.PictureBox1.TabIndex = 17
         Me.PictureBox1.TabStop = False
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.24!)
+        Me.Label1.Location = New System.Drawing.Point(277, 258)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(396, 29)
+        Me.Label1.TabIndex = 18
+        Me.Label1.Text = "Press B to play on Nelinka Network!"
+        '
         'Menu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(840, 654)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label5)
@@ -225,4 +237,5 @@ Partial Class Menu
     Friend WithEvents Label5 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Label1 As Label
 End Class

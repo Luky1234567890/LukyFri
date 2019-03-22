@@ -36,3 +36,4 @@ C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Debug\Luky_Fri.vbproj.CoreCompi
 C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Debug\Luky_Fri.exe
 C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Debug\Luky_Fri.xml
 C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Debug\Luky_Fri.pdb
+C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Debug\Luky_Fri.playonline.resources

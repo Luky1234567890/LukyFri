@@ -131,6 +131,12 @@
     <Compile Include="play4.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="playonline.Designer.vb">
+      <DependentUpon>playonline.vb</DependentUpon>
+    </Compile>
+    <Compile Include="playonline.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="tutorial.Designer.vb">
       <DependentUpon>tutorial.vb</DependentUpon>
     </Compile>
@@ -165,6 +171,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="play4.resx">
       <DependentUpon>play4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="playonline.resx">
+      <DependentUpon>playonline.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="tutorial.resx">
       <DependentUpon>tutorial.vb</DependentUpon>
