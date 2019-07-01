@@ -4,6 +4,8 @@
         play2.Close()
         play3.Close()
         play4.Close()
+        play5.Close()
+        play6.Close()
         Close()
     End Sub
 
