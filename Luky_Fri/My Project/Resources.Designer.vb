@@ -93,6 +93,16 @@ Namespace My.Resources
         '''<summary>
         '''  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property shop_building_outside() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("shop_building_outside", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property title() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("title", resourceCulture)

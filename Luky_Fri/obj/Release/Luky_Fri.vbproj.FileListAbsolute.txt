@@ -36,3 +36,5 @@ C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.vbproj.CoreCom
 C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.exe
 C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.xml
 C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.pdb
+C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.play5.resources
+C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Release\Luky_Fri.play6.resources

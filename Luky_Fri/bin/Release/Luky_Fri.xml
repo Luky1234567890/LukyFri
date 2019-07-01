@@ -37,6 +37,11 @@ Luky_Fri
   Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Luky_Fri.My.Resources.Resources.shop_building_outside">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Luky_Fri.My.Resources.Resources.title">
 <summary>
   Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.

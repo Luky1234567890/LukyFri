@@ -47,6 +47,9 @@
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -131,10 +134,16 @@
     <Compile Include="play4.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="playonline.Designer.vb">
-      <DependentUpon>playonline.vb</DependentUpon>
+    <Compile Include="play5.Designer.vb">
+      <DependentUpon>play5.vb</DependentUpon>
     </Compile>
-    <Compile Include="playonline.vb">
+    <Compile Include="play5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="play6.Designer.vb">
+      <DependentUpon>play6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="play6.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="tutorial.Designer.vb">
@@ -172,14 +181,18 @@
     <EmbeddedResource Include="play4.resx">
       <DependentUpon>play4.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="playonline.resx">
-      <DependentUpon>playonline.vb</DependentUpon>
+    <EmbeddedResource Include="play5.resx">
+      <DependentUpon>play5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="play6.resx">
+      <DependentUpon>play6.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="tutorial.resx">
       <DependentUpon>tutorial.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -195,6 +208,7 @@
     <None Include="Resources\character.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\shop_building_outside.png" />
     <None Include="Resources\title.png" />
     <None Include="Resources\character_jump.png" />
     <None Include="Resources\coming_soon.png" />

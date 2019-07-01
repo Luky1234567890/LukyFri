@@ -9,10 +9,10 @@ Imports System.Runtime.InteropServices
 ' Zkontrolujte hodnoty atributů sestavení.
 
 <Assembly: AssemblyTitle("Luky_Fri")>
-<Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("Luky_Fri")>
-<Assembly: AssemblyCopyright("Copyright ©  2018")>
+<Assembly: AssemblyDescription("Luky Fri. is an adventure game.")>
+<Assembly: AssemblyCompany("Nelinka")>
+<Assembly: AssemblyProduct("Luky Fri.")>
+<Assembly: AssemblyCopyright("Copyright © Nelinka 2019")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' pomocí zástupného znaku * takto:
 ' <Assembly: AssemblyVersion("1.0.*")>
 
-<Assembly: AssemblyVersion("1.0.0.0")>
+<Assembly: AssemblyVersion("1.1.3.0")>
 <Assembly: AssemblyFileVersion("1.0.0.0")>
