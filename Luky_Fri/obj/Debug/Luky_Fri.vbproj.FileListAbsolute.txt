@@ -23,7 +23,6 @@ C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\bin\Debug\Luky_Fri.pdb
 C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\bin\Debug\Luky_Fri.xml
 C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Debug\Luky_Fri.vbprojAssemblyReference.cache
 C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Debug\Luky_Fri.close_sure.resources
-C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Debug\Luky_Fri.Menu.resources
 C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Debug\Luky_Fri.jump.resources
 C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Debug\Luky_Fri.Resources.resources
 C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Debug\Luky_Fri.play1.resources
@@ -38,3 +37,5 @@ C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Debug\Luky_Fri.xml
 C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Debug\Luky_Fri.pdb
 C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Debug\Luky_Fri.play5.resources
 C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Debug\Luky_Fri.play6.resources
+C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Debug\Luky_Fri.Start.resources
+C:\Users\Lukáš Konečný\Luky_Fri\Luky_Fri\obj\Debug\Luky_Fri.nelcard.resources
