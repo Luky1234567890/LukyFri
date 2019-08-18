@@ -14,6 +14,21 @@
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -50,6 +65,9 @@
   <PropertyGroup>
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -82,11 +100,11 @@
     <Compile Include="close_sure.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Menu.vb">
+    <Compile Include="Start.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Menu.Designer.vb">
-      <DependentUpon>Menu.vb</DependentUpon>
+    <Compile Include="Start.Designer.vb">
+      <DependentUpon>Start.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="jump.Designer.vb">
@@ -109,6 +127,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="nelcard.Designer.vb">
+      <DependentUpon>nelcard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="nelcard.vb">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="play1.Designer.vb">
       <DependentUpon>play1.vb</DependentUpon>
@@ -157,8 +181,8 @@
     <EmbeddedResource Include="close_sure.resx">
       <DependentUpon>close_sure.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Menu.resx">
-      <DependentUpon>Menu.vb</DependentUpon>
+    <EmbeddedResource Include="Start.resx">
+      <DependentUpon>Start.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="jump.resx">
       <DependentUpon>jump.vb</DependentUpon>
@@ -168,6 +192,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nelcard.resx">
+      <DependentUpon>nelcard.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="play1.resx">
       <DependentUpon>play1.vb</DependentUpon>
@@ -212,9 +239,22 @@
     <None Include="Resources\title.png" />
     <None Include="Resources\character_jump.png" />
     <None Include="Resources\coming_soon.png" />
+    <Content Include="logo.ico" />
     <Content Include="Resources\logo.ico" />
     <None Include="Resources\welcome_sign.png" />
     <None Include="Resources\tree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.1 %28x86 a x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

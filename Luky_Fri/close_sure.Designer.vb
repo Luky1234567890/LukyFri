@@ -166,6 +166,7 @@ Partial Class close_sure
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label3)
         Me.Name = "close_sure"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "close_sure"
         Me.ResumeLayout(False)
         Me.PerformLayout()

@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2036
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Luky_Fri", "Luky_Fri\Luky_Fri.vbproj", "{5B8A9F10-9E50-415F-A2D9-247A098F2998}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "LukyFrietup", "LukyFrietup\LukyFrietup.vdproj", "{865AF4CF-6950-4F58-A1D8-BCB65B19FB09}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "LukyFrietup", "LukyFrietup\LukyFrietup.vdproj", "{5E0C7D17-9F72-4503-A641-C6A859F2900D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,13 +17,17 @@ Global
 		{5B8A9F10-9E50-415F-A2D9-247A098F2998}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B8A9F10-9E50-415F-A2D9-247A098F2998}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B8A9F10-9E50-415F-A2D9-247A098F2998}.Release|Any CPU.Build.0 = Release|Any CPU
-		{865AF4CF-6950-4F58-A1D8-BCB65B19FB09}.Debug|Any CPU.ActiveCfg = Debug
-		{865AF4CF-6950-4F58-A1D8-BCB65B19FB09}.Release|Any CPU.ActiveCfg = Release
+		{5E0C7D17-9F72-4503-A641-C6A859F2900D}.Debug|Any CPU.ActiveCfg = Debug
+		{5E0C7D17-9F72-4503-A641-C6A859F2900D}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9DE1AAEA-693F-45FF-BF2D-23B325FB7CF4}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 EndGlobal

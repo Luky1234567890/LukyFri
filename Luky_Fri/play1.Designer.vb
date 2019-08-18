@@ -44,7 +44,7 @@ Partial Class play1
         'Button9
         '
         Me.Button9.Location = New System.Drawing.Point(637, 452)
-        Me.Button9.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button9.Margin = New System.Windows.Forms.Padding(4)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(75, 55)
         Me.Button9.TabIndex = 22
@@ -54,7 +54,7 @@ Partial Class play1
         'Button8
         '
         Me.Button8.Location = New System.Drawing.Point(515, 452)
-        Me.Button8.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button8.Margin = New System.Windows.Forms.Padding(4)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(75, 55)
         Me.Button8.TabIndex = 21
@@ -64,7 +64,7 @@ Partial Class play1
         'Button7
         '
         Me.Button7.Location = New System.Drawing.Point(397, 452)
-        Me.Button7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button7.Margin = New System.Windows.Forms.Padding(4)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(75, 55)
         Me.Button7.TabIndex = 20
@@ -74,7 +74,7 @@ Partial Class play1
         'Button6
         '
         Me.Button6.Location = New System.Drawing.Point(397, 555)
-        Me.Button6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button6.Margin = New System.Windows.Forms.Padding(4)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(131, 48)
         Me.Button6.TabIndex = 19
@@ -84,7 +84,7 @@ Partial Class play1
         'Button5
         '
         Me.Button5.Location = New System.Drawing.Point(581, 555)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(4)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(131, 48)
         Me.Button5.TabIndex = 18
@@ -94,7 +94,7 @@ Partial Class play1
         'Button4
         '
         Me.Button4.Location = New System.Drawing.Point(115, 551)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(4)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(75, 55)
         Me.Button4.TabIndex = 17
@@ -104,7 +104,7 @@ Partial Class play1
         'Button3
         '
         Me.Button3.Location = New System.Drawing.Point(115, 426)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 55)
         Me.Button3.TabIndex = 16
@@ -114,7 +114,7 @@ Partial Class play1
         'Button2
         '
         Me.Button2.Location = New System.Drawing.Point(181, 489)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 55)
         Me.Button2.TabIndex = 15
@@ -124,7 +124,7 @@ Partial Class play1
         'Button1
         '
         Me.Button1.Location = New System.Drawing.Point(53, 489)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 55)
         Me.Button1.TabIndex = 14
@@ -147,7 +147,7 @@ Partial Class play1
         '
         Me.PictureBox3.Image = Global.Luky_Fri.My.Resources.Resources.welcome_sign
         Me.PictureBox3.Location = New System.Drawing.Point(-39, 156)
-        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(295, 228)
         Me.PictureBox3.TabIndex = 25
@@ -157,7 +157,7 @@ Partial Class play1
         '
         Me.PictureBox2.Image = Global.Luky_Fri.My.Resources.Resources.tree
         Me.PictureBox2.Location = New System.Drawing.Point(567, 75)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(199, 311)
         Me.PictureBox2.TabIndex = 24
@@ -167,7 +167,7 @@ Partial Class play1
         '
         Me.PictureBox1.Image = Global.Luky_Fri.My.Resources.Resources.character
         Me.PictureBox1.Location = New System.Drawing.Point(275, 75)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(197, 309)
         Me.PictureBox1.TabIndex = 23
@@ -192,8 +192,9 @@ Partial Class play1
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label3)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "play1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Luky Fri."
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
