@@ -6,6 +6,7 @@
         play4.Close()
         play5.Close()
         play6.Close()
+        play1_1.Close()
         Start.Show()
         Close()
     End Sub

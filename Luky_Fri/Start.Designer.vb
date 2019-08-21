@@ -39,7 +39,7 @@ Partial Class Start
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label3
@@ -138,7 +138,7 @@ Partial Class Start
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(238, Byte))
-        Me.Label4.Location = New System.Drawing.Point(210, 174)
+        Me.Label4.Location = New System.Drawing.Point(209, 176)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(188, 24)
         Me.Label4.TabIndex = 13
@@ -148,7 +148,7 @@ Partial Class Start
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.24!)
-        Me.Label5.Location = New System.Drawing.Point(210, 212)
+        Me.Label5.Location = New System.Drawing.Point(209, 243)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(144, 24)
         Me.Label5.TabIndex = 15
@@ -157,11 +157,11 @@ Partial Class Start
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(547, 298)
+        Me.Label2.Location = New System.Drawing.Point(487, 298)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(71, 13)
+        Me.Label2.Size = New System.Drawing.Size(131, 13)
         Me.Label2.TabIndex = 16
-        Me.Label2.Text = "Ver. 1.2-dev1"
+        Me.Label2.Text = "Info now in the About box!"
         '
         'Label1
         '
@@ -190,29 +190,29 @@ Partial Class Start
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(-25, 29)
+        Me.Label7.Location = New System.Drawing.Point(-32, 20)
         Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(928, 13)
         Me.Label7.TabIndex = 19
         Me.Label7.Text = resources.GetString("Label7.Text")
         '
-        'Label8
+        'Label9
         '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.24!)
-        Me.Label8.Location = New System.Drawing.Point(210, 250)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(226, 24)
-        Me.Label8.TabIndex = 20
-        Me.Label8.Text = "Press B to load a Nelcard!"
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.24!)
+        Me.Label9.Location = New System.Drawing.Point(209, 209)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(259, 24)
+        Me.Label9.TabIndex = 21
+        Me.Label9.Text = "Press A to see the About box!"
         '
         'Start
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(630, 531)
-        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label1)
@@ -253,5 +253,5 @@ Partial Class Start
     Friend WithEvents Label1 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
-    Friend WithEvents Label8 As Label
+    Friend WithEvents Label9 As Label
 End Class

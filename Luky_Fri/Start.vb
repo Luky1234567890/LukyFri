@@ -1,6 +1,6 @@
 ﻿Public Class Start
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-        play1.Show()
+        select_world.Show()
         Hide()
     End Sub
 
@@ -18,9 +18,6 @@
         AudioPlayMode.BackgroundLoop)
         If System.IO.File.Exists("C:\lukyfri_save.txt") = True Then
             Process.Start("C:\lukyfri_save.txt")
-            MsgBox("Here is what you did last time! :D", MsgBoxStyle.OkOnly, "Luky Fri.")
-        Else
-            MsgBox("No save file found! :(", MsgBoxStyle.OkOnly, "Luky Fri.")
         End If
     End Sub
 
@@ -33,7 +30,10 @@
     End Sub
 
     Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
-        nelcard.Show()
-        Hide()
+
+    End Sub
+
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        AboutBox1.Show()
     End Sub
 End Class

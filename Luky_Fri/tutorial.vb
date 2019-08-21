@@ -5,7 +5,7 @@
     End Sub
 
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
-        My.Computer.FileSystem.WriteAllText("c:\lukyfri_save.txt", TextBox1.Text, False)
+        My.Computer.FileSystem.WriteAllText("c:\lukyfri_save.txt", "Here is what you did last time! :D :" + TextBox1.Text, False)
         MsgBox("Saved successfuly!", vbOKOnly, "Luky Fri.")
         Start.Show()
         Close()
