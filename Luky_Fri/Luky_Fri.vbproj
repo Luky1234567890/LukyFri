@@ -14,6 +14,7 @@
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -26,7 +27,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -39,6 +39,7 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DocumentationFile>Luky_Fri.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -73,6 +74,12 @@
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>luky_fri_orig_cert.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>Internet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -116,6 +123,18 @@
       <DependentUpon>play1-1.vb</DependentUpon>
     </Compile>
     <Compile Include="play1-1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="play1-2.Designer.vb">
+      <DependentUpon>play1-2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="play1-2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="play1-3.Designer.vb">
+      <DependentUpon>play1-3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="play1-3.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="select_world.Designer.vb">
@@ -205,6 +224,12 @@
     <EmbeddedResource Include="play1-1.resx">
       <DependentUpon>play1-1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="play1-2.resx">
+      <DependentUpon>play1-2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="play1-3.resx">
+      <DependentUpon>play1-3.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="select_world.resx">
       <DependentUpon>select_world.vb</DependentUpon>
     </EmbeddedResource>
@@ -261,6 +286,7 @@
     <None Include="Resources\character.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\title1.png" />
     <None Include="Resources\worlds_lukycity.PNG" />
     <None Include="Resources\nelcards_title.png" />
     <None Include="Resources\worlds_original.PNG" />

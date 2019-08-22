@@ -16,6 +16,17 @@
     Private Sub Menu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         My.Computer.Audio.Play("C:\Program Files (x86)\Nelinka\Luky Fri\lukyfri_playmusic.wav",
         AudioPlayMode.BackgroundLoop)
+        Dim remoteUri As String = "http://nelinka.6te.net/lukyfri/news.txt"
+        Dim fileName As String = "C:\news.txt"
+
+        Using client As New System.Net.WebClient()
+
+            client.Credentials = New System.Net.NetworkCredential
+            client.DownloadFile(remoteUri, fileName)
+        End Using
+        Dim news As String
+        news = My.Computer.FileSystem.ReadAllText("C:\news.txt")
+        Label1.Text = news
         If System.IO.File.Exists("C:\lukyfri_save.txt") = True Then
             Process.Start("C:\lukyfri_save.txt")
         End If

@@ -102,7 +102,7 @@ Partial Class AboutBox1
         Me.LabelVersion.Name = "LabelVersion"
         Me.LabelVersion.Size = New System.Drawing.Size(257, 17)
         Me.LabelVersion.TabIndex = 0
-        Me.LabelVersion.Text = "Ver. 1.2-dev2"
+        Me.LabelVersion.Text = "Ver. 1.2"
         Me.LabelVersion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'LabelCopyright
@@ -141,9 +141,7 @@ Partial Class AboutBox1
         Me.TextBoxDescription.Size = New System.Drawing.Size(257, 123)
         Me.TextBoxDescription.TabIndex = 0
         Me.TextBoxDescription.TabStop = False
-        Me.TextBoxDescription.Text = "Popis :" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "(Za běhu programu bude text jmenovky nahrazen informacemi o sestavení " &
-    "aplikace." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "V Návrháři projektu v podokně Aplikace upravte informace o sestavení " &
-    "aplikace.)"
+        Me.TextBoxDescription.Text = "Luky Fri. is an adventure game. WELCOME TO LUKY FRI VER 1.2!"
         '
         'OKButton
         '
