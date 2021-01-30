@@ -7,8 +7,7 @@ LukyFrietup(or LukyFriSetup) is a setup for Luky Fri. The EXE is no longer avaia
 an alternative of the setup. The LukyFrietup wont work for mods! (As of new update).
 
 This game is supposed to be that you explore worlds that you get.
-This game DOES have multiplayer, but it is not finished yet.
 
 First version ON GITHUB: 1.1-dev1
-Latest version: 1.3-dev1 (online soon)
+Latest version: 1.2
 -------------------------------------------------------
