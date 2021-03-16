@@ -1,6 +1,8 @@
 # LukyFri
 The game is open source now! YAY
 
+**This game is archived. I no longer work on it, and I only keep it on Github for archival and educational purposes.
+
 For downloads, check #Releases.
 Download master branch and open with Visual Studio to make mods and your own versions!
 LukyFrietup(or LukyFriSetup) is a setup for Luky Fri. The EXE is no longer avaiable as
